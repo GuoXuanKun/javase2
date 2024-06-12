@@ -6,16 +6,16 @@ package day240612.practice.teach;
  */
 public class Student {
     // state
-    private String name;
+    private String namePlus;
     private int age;
 
     // behavior
-    public String getName() {
-        return name;
+    public String getNamePlus() {
+        return namePlus;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNamePlus(String namePlus) {
+        this.namePlus = namePlus;
     }
 
     public int getAge() {
@@ -27,15 +27,15 @@ public class Student {
     }
 
     // constructor
-    public Student(String name, int age) {
-        this.name = name;
+    public Student(String namePlus, int age) {
+        this.namePlus = namePlus;
         this.age = age;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
+                "namePlus='" + namePlus + '\'' +
                 ", age=" + age +
                 '}';
     }
