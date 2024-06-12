@@ -3,17 +3,17 @@ package day240612.practice.me;
 public class Student {
 
     // 1. state
-    private String name;
+    private String namePlus;
     private int age;
 
     // 2. behavior
 
-    public String getName() {
-        return name;
+    public String getNamePlus() {
+        return namePlus;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String namePlus) {
+        this.namePlus = namePlus;
     }
 
     public int getAge() {
@@ -26,8 +26,8 @@ public class Student {
 
     // 3.constructor
 
-    public Student(String name, int age) {
-        this.name = name;
+    public Student(String namePlus, int age) {
+        this.namePlus = namePlus;
         this.age = age;
     }
 }
