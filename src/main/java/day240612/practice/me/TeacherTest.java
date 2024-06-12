@@ -5,10 +5,10 @@ public class TeacherTest {
         Teacher kkk = new Teacher("kkk", 19);
         System.out.println(kkk);
         System.out.println(kkk.getAge());
-        System.out.println(kkk.getName());
+        System.out.println(kkk.getNamePuls());
         kkk.setAge(20);
-        kkk.setName("k");
+        kkk.setNamePuls("k");
         System.out.println(kkk.getAge());
-        System.out.println(kkk.getName());
+        System.out.println(kkk.getNamePuls());
     }
 }
