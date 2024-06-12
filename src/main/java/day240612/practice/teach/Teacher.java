@@ -10,6 +10,6 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 public class Teacher {
-    private String namePlus;
+    private String name;
     private int age;
 }
