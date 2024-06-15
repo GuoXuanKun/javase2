@@ -4,6 +4,47 @@
 - 怎么导 .jar 包
   - ![img_3.png](img_3.png)
 
+### 用 IntelliJ IDEA 编辑器自带的可视化数据库管理软件
+- ![img_4.png](img_4.png)
+- 备选方案
+  - ![img_5.png](img_5.png)
+- New Data Source -> MySQL
+  - ![img_6.png](img_6.png)
+  - Download missing driver files
+  - ![img_7.png](img_7.png)
+- 可能遇到的问题
+  - ![img_8.png](img_8.png)
+  - 解决方法：切换网络再重试
+- 测试连接情况
+  - ![img_9.png](img_9.png)
+
+### 0 of xxx Click here to display other schemas
+- ![img_10.png](img_10.png)
+
+### 在 console 执行 SQL 命令，体验自动提醒功能
+- ![img_11.png](img_11.png)
+
+### 命令行 vs GUI 一致的本质
+- ![img_12.png](img_12.png)
+
+### 创建表的模板格式
+- ![img_13.png](img_13.png)
+
+
+### GUI 可视化操作之后对应的 SQL 语句
+- ![img_14.png](img_14.png)
+- ![img_15.png](img_15.png)
+
+### MySQL 关键字的大小写写法格式
+- ![img_16.png](img_16.png)
+
+### 基础的增删改查操作
+- ![img_17.png](img_17.png)
+- ![img_18.png](img_18.png)
+
+### 查询语法
+- ![img_19.png](img_19.png)
+
 ### 在 idea 中 使用 Database
 - 导入
   - ![img_2.png](img_2.png)
