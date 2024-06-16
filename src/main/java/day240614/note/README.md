@@ -12,13 +12,27 @@
 - 使用 truncate 删除 提醒的报错
   - ![img_4.png](img_4.png)
   - 
-### 关系
+### 多表及其关系
 - 一对一
-  - 关键字 unique
-    - 唯一
-      - ![img_3.png](img_3.png)
+ - 例：学生 与 学生证 ...
+   - ![img_14.png](img_14.png)
+ - Duplicate entry
+   - ![img_15.png](img_15.png)
+ - 关键字 unique
+   - 唯一
+     - ![img_3.png](img_3.png)
 - 一对多
+  - 例：博客 与 评论、班级 与 学生 ...
+  - ![img_11.png](img_11.png)
+  - 外键约束的两个字段类型不一致导致的问题及解决办法
+    - ![img_12.png](img_12.png)
+  - 添加外键约束之后的验证
+    - ![img_13.png](img_13.png)
 - 多对多
+  - 例：博客 与 标签、学生 与 课程
+  - ![img_16.png](img_16.png)
+  - 一个学生可以选多门课，一门课可以被多个学生选
+    - ![img_17.png](img_17.png)
 
 ### truncate
 - 清除所有
@@ -42,11 +56,12 @@
 - ![img_6.png](img_6.png)
 
 ### JDBC
+- Introduces an API for connectivity between the Java applications and a wide range of databases and data sources.
 - 目的: 链接各种数据库
 - 定义规范与协议
   - 高以下为基
     - 强者只制定规则
-- ![img_7.png](img_7.png)
+- ![img_18.png](img_18.png)
 - 细则
   - 查询
     - Connection
@@ -58,6 +73,14 @@
   - 更新
   - 删除
       - 回滚
+      - ![img_10.png](img_10.png)
+- 背后隐藏的思想
+  乱象 => 统一
+  定义规范、标准
+  稳定、可扩展
+  3.产品、2.服务、1.标准
+- 殊途同归：Java 连接数据库与其他方式的本质一致
+  - ![img_19.png](img_19.png)
 
 ### 注解 @BeforeAll
 - 在 Java 中，@BeforeAll 是 JUnit 5 中的一个注解，它用来标记一个方法应该在当前测试类中的所有测试之前执行。与 @BeforeEach 不同的是，@BeforeAll 注解的方法只会被执行一次。
@@ -66,3 +89,6 @@
 ### Statement
 - 语句
 - ![img_8.png](img_8.png)
+
+### Transaction
+- ![img_20.png](img_20.png)
